@@ -1,0 +1,30 @@
+.Header {
+  background-color: #f5f5f5;
+  width: auto;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+ width: 1440px;
+ display: flex;
+ justify-content: space-between;
+ padding: 100px;
+}
+
+.Header img {
+  width: 82px;
+  height: 45px;
+}
+
+.icones {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icones p {
+  margin: 5px;
+}

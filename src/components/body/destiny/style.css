@@ -1,0 +1,43 @@
+.Destiny {
+  border-radius: 3%;
+  background-color: rgb(105, 105, 105);
+  background-image: url('../../../assets/destiny/aruba.jpg');
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 100%;
+  background-blend-mode: overlay;
+  min-width: 375px;
+  min-height: 385px;
+  margin: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: 1.5s;
+}
+
+.Destiny div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Destiny h2 {
+  margin-bottom: 15px;
+}
+.Destiny div hr {
+  width: 35px;
+  margin: 10px;
+  background-color: #FFF;
+  border: none;
+  height: 2px;
+  
+}
+
+.Destiny:hover {
+  cursor: pointer;
+  background-size: 110%;
+  opacity: 95%;
+}

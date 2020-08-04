@@ -1,0 +1,42 @@
+.Body {
+  color: #263c70;
+  height: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titles h2 {
+  font-size: 2em;
+  margin-top: 30px;
+}
+.titles hr {
+  align-self: center;
+  width: 150px;
+  height: 2px;
+  margin: 3%;
+  border: none;
+  background-color: #263c70;
+}
+
+.titles p {
+  max-width: 650px;
+  margin-bottom: 3%;
+  color: #9F9F9F;
+  font-size: 1.2em;
+}
+
+.destinys {
+  max-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
