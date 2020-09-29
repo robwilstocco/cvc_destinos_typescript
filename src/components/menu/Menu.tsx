@@ -12,35 +12,35 @@ interface Props {
 const Menu : React.FC<Props> = ({name}) => {
   return( 
     <div className='Menu'>
-      <a href='#'>
+      <a href='/'>
         <MdFlight className='icons_menu'></MdFlight>
         <p>PASSAGENS</p>
       </a>
-      <a href='#'>
+      <a href='/'>
         <MdHotel className='icons_menu'/>
         <p>HOTEIS</p>
       </a>
-      <a href='#'>
+      <a href='/'>
         <FaSuitcase className='icons_menu'/>
         <p>PACOTES</p>
       </a>
-      <a href='#'>
+      <a href='/'>
         <GiFamilyHouse className='icons_menu'/>
         <p>RESORTS</p>
       </a>
-      <a href='#'>
+      <a href='/'>
         <IoIosBoat className='icons_menu'/>
         <p>CRUZEIROS</p>
       </a>
-      <a href='#'>
+      <a href='/'>
         <GiTicket className='icons_menu'/>
         <p>INGRESSOS</p>
       </a>
-      <a href='#'>
+      <a href='/'>
         <FaGift className='icons_menu'/>
         <p>VALE-VIAGEM</p>
       </a>
-      <a href='#'>
+      <a href='/'>
         <MdPlace className='icons_menu'/>
         <p>DESTINOS</p>
       </a>
